@@ -1,0 +1,134 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font: 12px "Verdana";
+    background-image: url("img/bg.gif");
+    background-size: cover;
+}
+.main_border {
+    width: 690px;
+    margin: 0 auto;
+}
+p{
+    margin: 15px;
+}
+#header {
+    background-image: url("img/web.jpg");
+    height: 200px;
+    width: 690px;
+}
+#footer {
+    background-image: url("img/footer.jpg");
+    height: 18px;
+    width: 690px;
+}
+
+#left {
+    float: left;
+    width: 181px;
+    display: inline-block;
+    background-color: #f4f4f4;
+}
+
+#right {
+    float: left;
+    width: 509px;
+    /*overflow-y: scroll;*/
+    vertical-align: top;
+    background-color: white;
+    display: inline-block;
+}
+/*div::-webkit-scrollbar {
+    width: 3px;
+}*/
+p.title {
+    background-color: goldenrod;
+    color: #ffffff;
+    font-weight:bold;
+    margin:5px;
+    padding:5px;
+}
+#coolmenu{
+    border: 1px solid gray; /*Стиль рамки */
+    border-bottom-width: 0;
+    width: 92%; /*Ширина меню */
+    background-color: #f6f6f6;  /*Фоновый цвет ячейки*/
+    margin:7px; /*Ширина отступов*/
+}
+
+* html #coolmenu{
+    width: 150px;/*Ширина меню для Internet Explorer*/
+}
+
+#coolmenu a{
+    font: bold 13px Verdana; /*Шрифт текста*/
+    padding: 2px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+    padding-left: 4px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+    display: block;
+    width: 100%; /*Ширина ячейки*/
+    color: #000000;  /*Цвет текста*/
+    text-decoration: none; /*Подчеркивание у ссылок - нет*/
+    border-bottom: 1px solid gray;
+}
+a .ref {
+    display: inline-block;
+}
+
+html>body #coolmenu a{
+    width: auto;
+}
+
+#coolmenu a:hover{
+    background-color: #cccccc; /*Фоновый цвет ячейки при наведение курсора*/
+    color: #000000;  /*Цвет текста при наведении курсора*/
+}
+
+p.title2 {
+    background-color: goldenrod;
+    color: #ffffff;
+    font-weight:bold;
+    margin:5px;
+    padding:5px;
+}
+
+.form1 {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+.form3 {
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.formm {
+    border: 1px solid #cccccc;
+    margin:5px;
+}
+
+.lesson {
+    border: 1px solid #cccccc;
+    width: 95%;
+}
+
+.lesson_title {
+    background-color: #f6f6f6;
+}
+
+.lesson_name {font-weight: bold; margin-top: 7px; margin-bottom: 7px;}
+.lesson_adds {font-size: 11px; margin-top: 7px; margin-bottom: 7px; color: #424242;
+}
+
+.view_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: goldenrod;
+    text-align: center;
+}
+
+.view_date {
+    font-size: 11px;
+    font-weight: bold;
+    color: #424242;
+    margin: 7px 0 0 17px;
+}
